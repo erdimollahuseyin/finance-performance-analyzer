@@ -1,7 +1,20 @@
-__pycache__/
-*.pyc
-.env
-*.log
-*.sqlite3
+# OS generated files
+.DS_Store
+Thumbs.db
 
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python specific files
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
 venv
